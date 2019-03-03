@@ -1,0 +1,75 @@
+body{
+  margin: 0;
+}
+
+header{
+  width: 100%;
+  height: 100vh;
+  background: url("../images/HeaderBackground1920x1280.jpg");
+}
+
+.content-header h1{
+  float: left;
+  margin: 0;
+  color: white;
+}
+
+.content-header ul li {
+  float: right;
+  list-style: none;
+  display: inline;
+  padding: 20px 20px 0 20px;
+}
+
+.content-header a{
+  color: white;
+  text-decoration: none;
+}
+
+
+.intro{
+  padding: 10% 20%;
+  color: white;
+}
+
+.intro h1{
+  clear: both;
+  text-align: center;
+  font-size: 50px;
+  line-height: 45px;
+}
+
+.intro h5{
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+main > h1{
+  text-align: center;
+  font-size: 50px;
+  font-weight: 800;
+  padding: 0;
+  margin: 0;
+}
+
+main .part-Services{
+  float: left;
+  width: 24.5%;
+  padding:0 0 0 3px;
+  margin: 0;
+  text-align: center;
+  border-right: 1px solid gray;
+}
+
+.Services-content p{
+  text-align: left;
+  padding: 0;
+}
+
+
+@media only screen and (min-width:550px) and (max-width:950px) {
+  main .part-Services{
+    width: 49.5%;
+  }
+}
